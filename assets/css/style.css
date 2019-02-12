@@ -67,8 +67,12 @@ Main content border color: #dddddd
   
   main {
       width: 960px;
-      margin-left: 350px;
-      margin-right: 350px;
+      margin-left: 150px;
+      margin-right: 150px;
+      background-color: #ffffff;
+      padding: 10px;
+      border-color: gray;
+      border-width: 1px;
   }
 
   h1 {
@@ -80,7 +84,13 @@ Main content border color: #dddddd
 
   
   input {
-      width: 75%;
+      width: 95%;
+      color: gray;
+      padding: 5px;
+  }
+
+  textarea {
+      width: 95%;
       color: gray;
       padding: 5px;
   }
@@ -92,18 +102,12 @@ Main content border color: #dddddd
 
   }
 
-  #name {
-    width: 75%;
-  }
-
-  #subject {
-    width: 75%;
   }
 
   #comment {
-      width: 75%;
       height: 50px;
       display: inline-block;
+      width: 95%;
 
   }
 
