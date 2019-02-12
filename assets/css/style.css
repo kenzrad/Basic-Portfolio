@@ -1,0 +1,112 @@
+/**, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1000px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+  }
+  
+  header {
+    background-color: #1D88E5;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+  
+  aside {
+    background-color: #1D88E5;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+  
+  main {
+    background-color: #1D88E5;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid white;
+  }
+  
+  footer {
+    background-color: #1D88E5;
+    width: 1000px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid white;
+
+Teal color (used for headings and backgrounds): #4aaaa5
+
+Regular font color (used for paragraphs and all text besides the headings): #777777
+
+Main header background color: #ffffff
+
+Main header border color: #cccccc
+
+Footer background color: #666666
+
+Main content background color: #ffffff
+
+Main content border color: #dddddd
+
+
+
+
+
+  }*/
+  body {
+    background-image: url('../images/qbkls/qbkls.png');
+  }
+
+  
+  main {
+      width: 960px;
+      margin-left: 350px;
+      margin-right: 350px;
+  }
+
+  h1 {
+      color: #4aaaa5;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      width: 960px;
+      margin-top: 5px;
+  }
+
+  
+  input {
+      width: 75%;
+      color: gray;
+      padding: 5px;
+  }
+
+  
+  /*IDS*/
+
+  #fm1 {
+
+  }
+
+  #name {
+    width: 75%;
+  }
+
+  #subject {
+    width: 75%;
+  }
+
+  #comment {
+      width: 75%;
+      height: 50px;
+      display: inline-block;
+
+  }
+
+  #bt1{
+      margin-top: 10px;
+  }
