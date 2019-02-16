@@ -27,7 +27,7 @@
 
   summary {
     height: 350px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-size: 16px;
     padding: 20px;
   }
@@ -143,21 +143,21 @@
 
   .img_left { 
     float: left;
-    width:  275px;
+    width: 275px;
     height: 150px;
     background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover; 
+    background-repeat: no-repeat;
+    background-size: cover; 
     margin-right: 0;
   }
 
   .img_right {
     float: right;
-    width:  275px;
+    width: 275px;
     height: 150px;
     background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 330px;
     margin-left: 0;
   }
@@ -172,6 +172,10 @@
     margin-bottom: 100px;
     margin-top: 100px;
 
+  }
+
+  .aboutme {
+    margin-bottom: 100px;
   }
 
   /* IDS */
