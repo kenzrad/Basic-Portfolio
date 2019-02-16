@@ -102,15 +102,15 @@
   }
 
   figcaption {
-    position: relative;
     top: 10px;
-    margin-top: 50px;
+    margin-top: 120px;
     text-align: center;
-    padding: 25px;
-    background-color: blue;
-    
-
+    padding: 12px;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
   }
+
   footer {
     background-color: #666666;
     color: #ffffff;
@@ -145,8 +145,8 @@
   .img_left {
     position: relative;
     float: left;
-    width:  200px;
-    height: 150px;
+    width:  250px;
+    height: 200px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
@@ -155,12 +155,18 @@
   .img_right {
     position: relative;
     float: right;
-    width:  200px;
-    height: 150px;
+    width:  250px;
+    height: 200px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+    margin-right: 325px;
   }
+
+  .portfolio-a {
+    padding: 0
+  }
+
   /* IDS */
 
   /* #contactfm {
